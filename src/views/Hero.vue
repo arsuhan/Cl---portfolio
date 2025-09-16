@@ -11,8 +11,6 @@
       >
         <!-- Left Content -->
         <div
-          data-aos="zoom-in"
-          data-aos-duration="1000"
           class="md:mt-20 lg:-mt-10 xs:mt-24 md:mx-auto"
         >
           <p
@@ -114,10 +112,8 @@
         <div
           class="hidden lg:flex justify-center lg:justify-end w-full duration-500 transition hover:scale-[1.03]"
         >
+        
           <div
-            data-aos="zoom-in"
-            data-aos-delay="100"
-            data-aos-duration="1000"
             class="overflow-hidden rounded-full relative lg:-mt-12 z-10 w-full max-w-[350px] bg-cyan-400 ring-4 dark:ring-cyan-400 ring-cyan-400 shadow-[0_0_25px_rgba(0,0,0,0.4)] shadow-cyan-400"
           >
             <img

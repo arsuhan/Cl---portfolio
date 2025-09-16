@@ -52,9 +52,7 @@ const submitForm = async () => {
       </section>
 
    
-      <section data-aos="fade-up"
-      data-aos-duration="1000"
-     data-aos-anchor-placement="center-bottom"
+      <section 
 
         class="p-10 md:px-16 lg:mt-8 xs:py-10"
       >

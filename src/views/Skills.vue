@@ -145,9 +145,6 @@ const states = reactive([
     >
 
       <div v-for="state in states"
-      data-aos="fade-up"
-      data-aos-duration="1500"
-     data-aos-anchor-placement="center-bottom"
      
      class="w-full lg:w-full md:w-full xs:w-full h-auto xs:h-[144px] md:h-[200px] p-3 lg:p-6 rounded-lg bg-gray-900 dark:border-gray-700 transition-transform duration-500 
       xs:border lg:dark:border-2 border-cyan-700 hover:border-2 hover:border-cyan-400 hover:scale-[1.03] sm:w-[30px] lg:h-[220px] xs:p-3 md:p-5 hover:shadow-lg shadow"
