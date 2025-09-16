@@ -45,11 +45,11 @@ function openAppstore(project) {
 <section id="project">
   <section class="py-8 items-center">
     <section class="text-center">
-      <h1 class="lg:text-4xl xs:text-xl font-bold font-serif lg:mt-4 xs:-mt-4">
+      <h1 class="lg:text-2xl xs:text-xl font-bold font-serif lg:mt-4 xs:-mt-4">
         <span class="text-white">My </span>
         <span class="text-cyan-400">Projects</span>
       </h1>
-      <p class="mt-2 lg:text-[20px] text-white">Some of my recent work</p>
+      <p class="mt-2 text-white">Some of my recent work</p>
       <div class="w-20 lg:h-1 xs:h-0.5 bg-blue-500 dark:bg-cyan-400 mx-auto mt-3 rounded"></div>
     </section>
 
@@ -60,7 +60,6 @@ function openAppstore(project) {
         <div
           v-for="state in states"
           :key="state.title"
-          data-aos="fade-right"
           class="group bg-gray-700 border-2 border-cyan-400 lg:h-auto lg:w-[380px] xs:w-full md:w-[320px] lg:mx-auto md:h-[440px] rounded-lg shadow-sm dark:bg-gray-800 relative overflow-hidden transform transition-all duration-500 hover:-translate-y-2 xs:mt-7 md:mt-4"
         >
           <div class="overflow-hidden lg:h-[240px]">

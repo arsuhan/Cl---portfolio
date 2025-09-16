@@ -14,13 +14,13 @@
           class="md:mt-20 lg:-mt-10 xs:mt-24 md:mx-auto"
         >
           <p
-            class="text-lg md:text-1xl lg:text-3xl font-bold text-white -mt-4 md:mt-0 text-center lg:text-left"
+            class="text-lg md:text-1xl lg:text-2xl font-bold text-white -mt-4 md:mt-0 text-center lg:text-left"
           >
             Hello, It's Me
           </p>
 
           <h1
-            class="xs:text-2xl md:text-3xl text-center lg:text-5xl font-bold text-white mt-2 underline underline-offset-4 decoration-4 lg:text-left" 
+            class="xs:text-2xl md:text-3xl text-center lg:text-4xl font-bold text-white mt-2 underline underline-offset-4 decoration-4 lg:text-left" 
           >
             Md. Sabbir Ahmed Sohan
           </h1>
@@ -32,7 +32,7 @@
             <span class="text-[#00f0ff]">Flutter Developer</span>
           </h2>
 
-          <p class="text-white mb-6 lg:mb-3 lg:px-4 xs:mt-3 xs:text-[14px] lg:text-[18px] md:text-[16px] xs:-mx-4 md:mt-6 md:text-center lg:text-start">
+          <p class="text-white mb-6 lg:mb-3 lg:px-4 xs:mt-3 xs:text-sm lg:text-base md:text-[16px] xs:-mx-5 md:mt-6 md:text-center lg:text-start">
             I've been very passionate about computers and programming since my School life. I dream to be
             an expert software engineer so that I can build professional and useful software that has business
             value. I am looking for a Junior software engineer position in a reputed software company that can

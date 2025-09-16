@@ -131,11 +131,11 @@ const states = reactive([
     <section id="skill" class="">
   <section class="py-8 -my-1 items-center">
     <section class="text-center">
-      <h1 class="lg:text-3xl xs:text-xl font-serif font-bold xs:mt-2 md:mt-2 lg:-mt-5">
+      <h1 class="lg:text-2xl xs:text-xl font-serif font-bold xs:mt-2 md:mt-2 lg:-mt-5">
         <span class="text-white">My </span>
         <span class="text-cyan-400">Skills</span>
       </h1>
-      <p class="mt-2 lg:text-[20px] text-white">Technologies I work with</p>
+      <p class="mt-2 text-white">Technologies I work with</p>
       <div class="w-20 lg:h-1 xs:h-0.5 bg-cyan-500 mx-auto mt-3 rounded"></div>
     </section>
 
@@ -146,18 +146,18 @@ const states = reactive([
 
       <div v-for="state in states"
      
-     class="w-full lg:w-full md:w-full xs:w-full h-auto xs:h-[144px] md:h-[200px] p-3 lg:p-6 rounded-lg bg-gray-900 dark:border-gray-700 transition-transform duration-500 
-      xs:border lg:dark:border-2 border-cyan-700 hover:border-2 hover:border-cyan-400 hover:scale-[1.03] sm:w-[30px] lg:h-[220px] xs:p-3 md:p-5 hover:shadow-lg shadow"
+     class="w-full lg:w-full md:w-full xs:w-full h-auto xs:h-[144px] md:h-[200px] p-3 rounded-lg bg-gray-900 dark:border-gray-700 transition-transform duration-500 
+      xs:border lg:dark:border-2 border-cyan-700 hover:border-2 hover:border-cyan-400 hover:scale-[1.03] sm:w-[30px] lg:h-[210px] xs:p-3 md:p-5 hover:shadow-lg shadow"
 >
       
         <div class="bg-gray-300 p-3 rounded-full flex text-blue-600 lg:w-14 lg:h-14 xs:w-11 xs:h-11 justify-center items-center">
                   <img class="lg:w-[30px] lg:h-[30px] xs:w-[26px] xs:h-[18px]" :src="state.img" alt="" />
         </div>
         <div class="">
-          <h1 class="lg:text-xl xs:text-[13.5px] md:text-lg text-cyan-400 uppercase font-bold mt-4">
+          <h1 class="xs:text-[13.5px] md:text-lg text-cyan-400 uppercase font-bold mt-4">
           {{ state.title }}
         </h1>
-        <p class="hidden md:block md:text-xl lg:text-[17px] md:text-[14px] mb-3 md:mt-3 lg:mt-2 font-normal text-cyan-200 dark:text-cyan-300">
+        <p class="hidden md:block lg:text-base mb-3 md:mt-3 lg:mt-2 font-normal text-cyan-200 dark:text-cyan-300">
           {{ state.subtitle }}
         </p>
         <p class="block lg:hidden md:hidden xs:text-[13px] md:text-xl lg:text-xl mb-3 md:mt-3 lg:mt-4 font-normal text-cyan-200 dark:text-cyan-300 mt-1">

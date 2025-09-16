@@ -20,7 +20,7 @@ const showMore = ref(false); 
 
 
     <div class="lg:-mt-20 w-full text-black md:mt-10 xs:mt-10">
-      <h1 class="lg:text-3xl xs:text-xl sm:text-xl font-bold font-serif mb-4 text-center lg:text-left">
+      <h1 class="lg:text-2xl xs:text-xl sm:text-xl font-bold font-serif mb-4 text-center lg:text-left">
         <span class=" text-cyan-400">Job Experiance</span>
       </h1>
 
@@ -31,11 +31,11 @@ const showMore = ref(false); 
           <span class="text-cyan-400 mr-2">📅 11/2024 - Present</span>
         </li>
         <li class="flex md:justify-center lg:justify-start">
-          <span class="text-base text-center font-semibold lg:text-left text-white mb-2 lg:text-2xl lg:mt-1">Junior Software Enginner (Flutter)</span>
+          <span class="text-base text-center font-semibold lg:text-left text-white mb-2 lg:text-xl lg:mt-1">Junior Software Enginner (Flutter)</span>
         </li>
         <li class="flex md:justify-center lg:justify-start">
-          <span class="text-base text-center font-semibold lg:text-left text-white mb-2 lg:text-2xl xs:text-sm lg:mt-1">Code Studio - </span>
-          <a href="https://code-studio4.com/"><span class="text-base text-center font-semibold lg:text-left text-cyan-400 mb-2 lg:text-2xl xs:text-sm lg:mt-1 hover:underline">🔗 www.code-studio4.com</span></a>
+          <span class="text-base text-center font-semibold lg:text-left text-white mb-2 lg:text-xl xs:text-sm lg:mt-1">Code Studio - </span>
+          <a href="https://code-studio4.com/"><span class="text-base text-center font-semibold lg:text-left text-cyan-400 mb-2 lg:text-xl xs:text-sm lg:mt-1 hover:underline">🔗 www.code-studio4.com</span></a>
         </li>
       </ul>
 
@@ -51,49 +51,17 @@ const showMore = ref(false); 
       <div class="flex flex-col gap-4 w-full md:w-auto items-center lg:items-start mt-4 md:items-center md:flex md:justify-center md:mt-8">
          <div>
     <p>
-      <!-- <div>
-        <div>
-        <li class="text-white xs:mt-3 xs:text-[14px] lg:text-[18px] md:text-[16px] xs:mx-4 md:text-center lg:text-start">
-          <span class="mr-2">
-           Implemented MVVM architecture for scalable and maintainable code.</span>
-        </li>
-        <li class="text-white xs:mt-3 xs:text-[14px] lg:text-[18px] md:text-[16px] xs:mx-4 md:text-center lg:text-start">
-          <span class="mr-2">
-           Applied Provider and GetX for state management in different projects.</span>
-        </li>
-        <li class="text-white xs:mt-3 xs:text-[14px] lg:text-[18px] md:text-[16px] xs:mx-4 md:text-center lg:text-start">
-          <span class="mr-2">
-           Integrated GoRouter for smooth navigation and route handling.</span>
-        </li>
-        <li class="text-white xs:mt-3 xs:text-[14px] lg:text-[18px] md:text-[16px] xs:mx-4 md:text-center lg:text-start">
-          <span class="mr-2">
-           Worked on Push Notification implementation using Firebase Messaging.</span>
-        </li>
-        <li class="text-white xs:mt-3 xs:text-[14px] lg:text-[18px] md:text-[16px] xs:mx-4 md:text-center lg:text-start">
-          <span class="mr-2">
-           Integrated Google Maps API for location-based features.</span>
-        </li>
-        <li class="text-white xs:mt-3 xs:text-[14px] lg:text-[18px] md:text-[16px] xs:mx-4 md:text-center lg:text-start">
-          <span class="mr-2">
-           Practiced effective team communication & collaboration in remote projects.</span>
-        </li>
-        <li class="text-white xs:mt-3 xs:text-[14px] lg:text-[18px] md:text-[16px] xs:mx-4 md:text-center lg:text-start">
-          <span class="mr-2">
-          Improved debugging and problem-solving skills while working on real client projects</span>
-        </li>
-      </div>
-      </div> -->
     </p>
 
     <p v-if="showMore">
       <div>
         <div>
-        <p class="text-base text-center font-semibold lg:text-left text-white mb-2 lg:text-2xl lg:-mt-3">
+        <p class="text-base text-center font-semibold lg:text-left text-white mb-2 lg:text-xl lg:-mt-3">
         Key Learnings & Contributions:
       </p>
       </div>
         <div>
-        <li class="text-white xs:mt-3 xs:text-[14px] lg:text-[18px] md:text-[16px] xs:mx-4 md:text-center lg:text-start">
+        <li class="text-white xs:mt-3 xs:text-sm lg:text-[18px] md:text-base xs:mx-4 md:text-center lg:text-start">
           <span class="mr-2">
            Implemented MVVM architecture for scalable and maintainable code.</span>
         </li>
@@ -126,7 +94,7 @@ const showMore = ref(false); 
     </p>
 
     <div class="md:items-center md:flex md:justify-center lg:items-start lg:justify-start xs:items-center xs:flex xs:justify-center">
-      <button class="xs:w-48 md:w-52 lg:w-29 md:px-4 shadow-[#00f0ff] xs:py-2 md:py-3 mt-2 text-black bg-[#00f0ff] hover:bg-cyan-500 shadow-[0_0_5px_rgba(0,0,0,0.4)] rounded-full font-medium transition duration-500 hover:shadow-[#00f0ff] xs:text-sm lg:text-lg" 
+      <button class="xs:w-48 md:w-52 lg:w-29 lg:py-2 md:px-4 shadow-[#00f0ff] xs:py-2 md:py-3 mt-2 text-black bg-[#00f0ff] hover:bg-cyan-500 shadow-[0_0_5px_rgba(0,0,0,0.4)] rounded-full font-medium transition duration-500 hover:shadow-[#00f0ff] xs:text-sm lg:text-lg" 
       @click="showMore = !showMore">
       {{ showMore ? 'Show More' : 'Read More' }}
     </button>

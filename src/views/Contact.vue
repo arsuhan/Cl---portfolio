@@ -43,11 +43,11 @@ const submitForm = async () => {
     <section id="contact" class="">
     <section class="py-8 -my-1 shadow-lg dark:text-white">
       <section class="text-center">
-        <h1 class="lg:text-3xl xs:text-xl font-serif font-bold xs:-mt-6 lg:mt-1">
+        <h1 class="lg:text-2xl xs:text-xl font-serif font-bold xs:-mt-6 lg:mt-1">
           <span class="text-white">Get In </span>
           <span class="text-cyan-400">Touch</span>
         </h1>
-        <p class="mt-2 lg:text-[20px] text-white">Let's work together</p>
+        <p class="mt-2 lg:text-[16px] text-white">Let's work together</p>
         <div class="w-20 lg:h-1 xs:h-0.5 bg-cyan-400 mx-auto mt-3 rounded"></div>
       </section>
 
@@ -211,7 +211,7 @@ const submitForm = async () => {
                 placeholder="Your Email"
                 v-model="email"
                 required
-                class="block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-white focus:border-blue-500 bg-gray-200 dark:border-gray-600 dark:text-white"
+                class="mt- dark:bg-[#1f242d] block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-white focus:border-blue-500 bg-gray-200 dark:border-gray-600 dark:text-white"
               />
             </section>
             <section class="xs:-mx-4 lg:mx-0">
