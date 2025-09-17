@@ -9,6 +9,7 @@ const showSuccess = ref(false)
 
 const submitForm = async () => {
   console.log('submit')
+  alert("✅ Message sent successfully!");
   const response = await fetch('https://api.web3forms.com/submit', {
     method: 'POST',
     headers: {
@@ -29,7 +30,7 @@ const submitForm = async () => {
     showSuccess.value = true //
     setTimeout(() => {
       showSuccess.value = false 
-    }, 3000)
+    }, 1000)
   }
 
   // input
@@ -40,12 +41,11 @@ const submitForm = async () => {
 </script>
 
 <template>
-    <section id="contact" class="">
+<section id="contact" class="">
     <section class="py-8 -my-1 shadow-lg dark:text-white">
       <section class="text-center">
         <h1 class="lg:text-2xl xs:text-xl font-serif font-bold xs:-mt-6 lg:mt-1">
-          <span class="text-white">Get In </span>
-          <span class="text-cyan-400">Touch</span>
+          <span class="text-cyan-400">Get In Touch</span>
         </h1>
         <p class="mt-2 lg:text-[16px] text-white">Let's work together</p>
         <div class="w-20 lg:h-1 xs:h-0.5 bg-cyan-400 mx-auto mt-3 rounded"></div>
@@ -117,7 +117,7 @@ const submitForm = async () => {
       </div>
       <div class="xs:-mt-1 lg:mx-2">
         <h4 class="font-bold mx-2 text-cyan-400">Location</h4>
-        <p class="text-white mx-2">Dhaka, Bangladesh</p>
+        <p class="text-white mx-2">Sector-6, Uttara, Dhaka-1230, Bangladesh</p>
       </div>
     </div>
   </div>
@@ -176,7 +176,7 @@ const submitForm = async () => {
 
 <!-- submit form -->
 
-<div class="">
+      <div class="">
         <form
             @submit.prevent="submitForm"
             class="bg-gray-800 rounded-lg xs:-mx-7 shadow-md xs:p-7 lg:p-6 lg:space-y-12 xs:space-y-5 md:space-y-4 xs:mt-5"
@@ -184,8 +184,7 @@ const submitForm = async () => {
             <section class="xs:-mx-4 lg:mx-0 ">
                 <div class="flex items-center justify-center">
                     <h1 class="lg:text-4xl xs:text-2xl font-bold md:-mt-2 lg:mt-3">
-                        <span class="text-white">Contact </span>
-                        <span class="text-cyan-500">Me!</span>
+                        <span class="text-cyan-500">Contact Me!</span>
                     </h1>
                 </div>
               <label for="Name" class="block text-sm font-medium text-white mt-6 mb-1"

@@ -58,7 +58,6 @@ onMounted(() => {
       <ul class="hidden md:flex items-center space-x-8 font-bold font-serif text-[16px] text-white">
         <li><a href="#home" @click="handleLinkClick" class="transition underline text-cyan-400">Home</a></li>
         <li><a href="#about" @click="handleLinkClick" class="hover:text-cyan-400 hover:underline">About</a></li>
-        <!-- <li><a href="#about" @click="handleLinkClick" class="hover:text-cyan-400 hover:underline">Cirtificate</a></li> -->
         <li><a href="#skill" @click="handleLinkClick" class="hover:text-cyan-400 hover:underline">Skills</a></li>
         <li><a href="#project" @click="handleLinkClick" class="hover:text-cyan-400 hover:underline">Projects</a></li>
         <li><a href="#contact" @click="handleLinkClick" class="hover:text-cyan-400 hover:underline">Contact</a></li>

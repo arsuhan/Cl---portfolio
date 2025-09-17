@@ -61,31 +61,31 @@ const showMore = ref(false); 
       </p>
       </div>
         <div>
-        <li class="text-white xs:mt-3 xs:text-sm lg:text-[18px] md:text-base xs:mx-4 md:text-center lg:text-start">
+        <li class="text-white xs:mt-3 xs:text-sm lg:text-[18px] md:text-base xs:mx-4 md:text-start lg:text-start">
           <span class="mr-2">
-           Implemented MVVM architecture for scalable and maintainable code.</span>
+          Implemented MVVM architecture for scalable and maintainable code.</span>
         </li>
-        <li class="text-white xs:mt-3 xs:text-[14px] lg:text-[18px] md:text-[16px] xs:mx-4 md:text-center lg:text-start">
+        <li class="text-white xs:mt-3 xs:text-[14px] lg:text-[18px] md:text-[16px] xs:mx-4 md:text-start lg:text-start">
           <span class="mr-2">
            Applied Provider and GetX for state management in different projects.</span>
         </li>
-        <li class="text-white xs:mt-3 xs:text-[14px] lg:text-[18px] md:text-[16px] xs:mx-4 md:text-center lg:text-start">
+        <li class="text-white xs:mt-3 xs:text-[14px] lg:text-[18px] md:text-[16px] xs:mx-4 md:text-start lg:text-start">
           <span class="mr-2">
            Integrated GoRouter for smooth navigation and route handling.</span>
         </li>
-        <li class="text-white xs:mt-3 xs:text-[14px] lg:text-[18px] md:text-[16px] xs:mx-4 md:text-center lg:text-start">
+        <li class="text-white xs:mt-3 xs:text-[14px] lg:text-[18px] md:text-[16px] xs:mx-4 md:text-start lg:text-start">
           <span class="mr-2">
            Worked on Push Notification implementation using Firebase Messaging.</span>
         </li>
-        <li class="text-white xs:mt-3 xs:text-[14px] lg:text-[18px] md:text-[16px] xs:mx-4 md:text-center lg:text-start">
+        <li class="text-white xs:mt-3 xs:text-[14px] lg:text-[18px] md:text-[16px] xs:mx-4 md:text-start lg:text-start">
           <span class="mr-2">
            Integrated Google Maps API for location-based features.</span>
         </li>
-        <li class="text-white xs:mt-3 xs:text-[14px] lg:text-[18px] md:text-[16px] xs:mx-4 md:text-center lg:text-start">
+        <li class="text-white xs:mt-3 xs:text-[14px] lg:text-[18px] md:text-[16px] xs:mx-4 md:text-start lg:text-start">
           <span class="mr-2">
            Practiced effective team communication & collaboration in remote projects.</span>
         </li>
-        <li class="text-white xs:mt-3 xs:text-[14px] lg:text-[18px] md:text-[16px] xs:mx-4 md:text-center lg:text-start">
+        <li class="text-white xs:mt-3 xs:text-[14px] lg:text-[18px] md:text-[16px] xs:mx-4 md:text-start lg:text-start">
           <span class="mr-2">
           Improved debugging and problem-solving skills while working on real client projects</span>
         </li>

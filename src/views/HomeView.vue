@@ -2,13 +2,10 @@
 import Header from '../views/Header/Header.vue';
 import Hero from '../views/Hero.vue';
 import About from '../views/About.vue';
-// import Cirtificate from '../views/Cirtificate.vue';
 import Skills from '../views/Skills.vue';
 import Project from '../views/Project.vue';
 import Contact from '../views/Contact.vue';
 import Footer from '../views/Header/Footer.vue';
-
-// import categories from './component/categories.vue';
 
 </script>
 
@@ -16,7 +13,6 @@ import Footer from '../views/Header/Footer.vue';
   <Header />
   <Hero />
   <About />
-  <!-- <Cirtificate /> -->
   <Skills />
   <Project />
   <Contact />
@@ -26,5 +22,4 @@ import Footer from '../views/Header/Footer.vue';
 </template>
 
 <style scoped>
-
 </style>
