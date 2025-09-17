@@ -6,50 +6,50 @@ const states = reactive([
   {
     img: '/images/dart.png',
     title: 'dart',
-    subtitle: 'Semantic markup, accessibility standards, SEO optimization',
-    subtitle1: 'Semantic tags, SEO, a11y',
+    subtitle: 'A modern, object-oriented programming language',
+    subtitle1: 'Modern OOP language',
   },
   {
     img: '/images/flutter.png',
     title: 'flutter',
-    subtitle: 'Responsive design, animations, Flexbox/Grid layouts',
-     subtitle1: 'Alignment Structure Motion Grid',
+    subtitle: 'UI toolkit for creating natively compiled mobile, web, and desktop app',
+     subtitle1: 'UI toolkit for cross-platform apps',
   },
   {
     img: '/images/java.png',
     title: 'java',
-    subtitle: 'Modern UI design with bootstrap 5 design with',
-    subtitle1: 'Bootstrap 5 UI Design',
+    subtitle: 'object-oriented programming language wedly used backend development.',
+    subtitle1: 'used language for backend',
   },
   {
     img: '/images/getx.png',
     title: 'getx',
-    subtitle: 'ES6+, DOM manipulation, async programming',
-    subtitle1: 'ES6, DOM, Async /Await',
+    subtitle: 'Lightweight Flutter state management, navigation',
+    subtitle1: 'Lightweight state management',
   },
   {
     img: '/images/jj.png',
     title: 'provider',
-    subtitle: 'Designing Custom Layouts with Tailwind CSS',
-    subtitle1: 'Utility-first Layouts',
+    subtitle: 'Popular Flutter state management library for scalable app architecture',
+    subtitle1: ' Scalable state management library',
   },
   {
     img: '/images/restapi.png',
     title: 'Rest api',
-    subtitle: 'Frontend Web Development using Vue.js',
-    subtitle1: 'Vue 3, Components, Props',
+    subtitle: 'A standard architecture for seamless client-server communication',
+    subtitle1: 'Standard client-server communication',
   },
   {
     img: '/images/mvvc.png',
     title: 'mvvc',
-    subtitle: 'Interactive UI Elements with Flowbite,',
-    subtitle1: 'UI Kit + Tailwind CSS',
+    subtitle: 'Software design pattern separating UI, logic, and data handling for cleaner apps',
+    subtitle1: 'Clean separation of UI, logic & data',
   },
   {
     img: '/images/mvc.png',
     title: 'mvc',
-    subtitle: 'Data Storage and Retrieval using MongoDB',
-    subtitle1: 'NoSQL, CRUD, Atlas DB',
+    subtitle: 'Classic software architecture dividing model, view, and controller layers',
+    subtitle1: 'Model, View & Controller pattern',
   },
    {
     img: '/images/firebase.png',
@@ -60,68 +60,68 @@ const states = reactive([
   {
     img: '/images/admod.png',
     title: 'AdMob',
-    subtitle: 'Deploy Stunning Websites on Netlify',
-    subtitle1: 'Deploy Stunning Websites on Netlify',
+    subtitle: 'Google’s mobile advertising platform for app monetization',
+    subtitle1: 'Mobile app monetization tool',
   },
   {
     img: '/images/map.png',
     title: 'google map',
-    subtitle: 'Version control, GitHub, CI/CD workflows',
-    subtitle1: 'Git, Commits, CI/CD'
+    subtitle: 'Location and navigation API for integrating maps in mobile apps',
+    subtitle1: 'Location & navigation API'
   },
   {
     img: '/images/eps.png',
     title: 'eps',
-    subtitle: 'Version control, GitHub, CI/CD workflows',
-    subtitle1: 'Git, Commits, CI/CD'
+    subtitle: 'Electronic Payment System for secure online transactions',
+    subtitle1: 'Secure electronic payment system'
   },
   {
     img: '/images/SSLCOMMERZ.png',
     title: 'SSLCOMMERZ',
-    subtitle: 'Version control, GitHub, CI/CD workflows',
-    subtitle1: 'Git, Commits, CI/CD'
+    subtitle: 'Bangladesh’s leading online payment gateway for e-commerce and apps',
+    subtitle1: 'Leading BD online payment gateway'
   },
   {
     img: '/images/git.png',
     title: 'git',
-    subtitle: 'Version control, GitHub, CI/CD workflows',
-    subtitle1: 'Git, Commits, CI/CD'
+    subtitle: 'Version control system for tracking and managing code changes',
+    subtitle1: 'Version control system'
   },
   {
     img: '/images/github.png',
     title: 'github',
-    subtitle: 'Version control, GitHub, CI/CD workflows',
-    subtitle1: 'Git, Commits, CI/CD'
+    subtitle: 'Cloud-based Git repository hosting and collaboration platform',
+    subtitle1: 'Cloud Git repository platform'
   },
   {
     img: '/images/figma.png',
     title: 'figma',
-    subtitle: 'Version control, GitHub, CI/CD workflows',
-    subtitle1: 'Git, Commits, CI/CD'
+    subtitle: 'Online collaborative tool for UI/UX design and prototyping',
+    subtitle1: 'Collaborative UI/UX design tool'
   },
   {
     img: '/images/jira.png',
     title: 'jira',
-    subtitle: 'Version control, GitHub, CI/CD workflows',
-    subtitle1: 'Git, Commits, CI/CD'
+    subtitle: 'Project management and issue tracking tool for Agile teams',
+    subtitle1: 'Agile project management tool'
   },
   {
     img: '/images/postman.png',
     title: 'postman',
-    subtitle: 'Test and Debug APIs Effortlessly',
-    subtitle1: 'Test and Debug APIs Effortlessly',
+    subtitle: 'API development, testing, and collaboration platform',
+    subtitle1: 'API testing & development tool',
   },
   {
     img: '/images/trello.png',
     title: 'trello',
-    subtitle: 'Visual project management tool with boards, lists, and cards.',
-    subtitle1: 'Git, Commits, CI/CD'
+    subtitle: 'Visual project management tool with boards, lists, and cards',
+    subtitle1: 'Visual project management board'
   },
   {
     img: '/images/oop.png',
     title: 'oop',
-    subtitle: 'Object-Oriented Programming paradigm for modular, reusable, and maintainable code.',
-    subtitle1: 'UI Kit + Tailwind CSS',
+    subtitle: 'Object-Oriented Programming paradigm for modular reusable',
+    subtitle1: 'Modular, reusable coding approach',
   },
 ])
 
@@ -160,7 +160,7 @@ const states = reactive([
         <p class="hidden md:block lg:text-base mb-3 md:mt-3 lg:mt-2 font-normal text-cyan-200 dark:text-cyan-300">
           {{ state.subtitle }}
         </p>
-        <p class="block lg:hidden md:hidden xs:text-[13px] md:text-xl lg:text-xl mb-3 md:mt-3 lg:mt-4 font-normal text-cyan-200 dark:text-cyan-300 mt-1">
+        <p class="block lg:hidden md:hidden xs:text-[12px] md:text-xl lg:text-xl mb-3 md:mt-3 lg:mt-4 font-normal text-cyan-200 dark:text-cyan-300">
           {{ state.subtitle1 }}
         </p>
         </div>

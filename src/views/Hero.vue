@@ -110,18 +110,28 @@
 
         <!-- Right Image -->
         <div
-          class="hidden lg:flex justify-center lg:justify-end w-full duration-500 transition hover:scale-[1.03]"
+          class="hidden lg:flex justify-center lg:justify-end w-full duration-500 transition hover:scale-[1.03] h-[350px]"
         >
+
+        <div
+  class="overflow-hidden rounded-full relative lg:-mt-12 z-10 w-full max-w-[390px]  bg-cyan-400 ring-4 dark:ring-cyan-400 ring-cyan-400 shadow-[0_0_25px_rgba(0,0,0,0.4)] shadow-cyan-400"
+>
+  <img
+    src="/images/sohan.png"
+    alt="Developer Image"
+    class="w-full object-cover rounded-full"
+  />
+</div>
         
-          <div
-            class="overflow-hidden rounded-full relative lg:-mt-12 z-10 w-full max-w-[350px] bg-cyan-400 ring-4 dark:ring-cyan-400 ring-cyan-400 shadow-[0_0_25px_rgba(0,0,0,0.4)] shadow-cyan-400"
+          <!-- <div
+            class="overflow-hidden rounded-full relative lg:-mt-12 z-10 w-full max-w-[400px] bg-cyan-400 ring-4 dark:ring-cyan-400 ring-cyan-400 shadow-[0_0_25px_rgba(0,0,0,0.4)] shadow-cyan-400"
           >
             <img
               src="/images/sohan.png"
               alt="Developer Image"
-              class="w-full h-[340px] object-cover"
+              class="w-auto h-[440px] object-cover"
             />
-          </div>
+          </div> -->
         </div>
       </div>
     </section>
