@@ -12,7 +12,7 @@ const showMore = ref(false); 
 
     <div class="lg:w-1/2 flex justify-center lg:justify-start xs:mt-12 md:-mt-20 mx-auto lg:-mt-4 duration-500 transition hover:scale-[1.03]">
       <img
-        src="/images/coder boy.avif"
+        src="/images/sohan.png"
         alt="About Image"
         class="xs:w-[220px] xs:h-[240px] sm:w-[280px] sm:h-[260px] md:w-[280px] md:h-[280px] lg:w-[290px] lg:h-[320px] lg:-mt-12 rounded-xl border-2 border-cyan-400 object-cover shadow-[0_0_25px_rgba(0,0.2)] shadow-cyan-400 duration-500 transition"
       />
@@ -34,8 +34,8 @@ const showMore = ref(false); 
           <span class="text-base text-center font-semibold lg:text-left text-white mb-2 lg:text-xl lg:mt-1">Junior Software Enginner (Flutter)</span>
         </li>
         <li class="flex md:justify-center lg:justify-start">
-          <span class="text-base text-center font-semibold lg:text-left text-white mb-2 lg:text-xl xs:text-sm lg:mt-1">Code Studio - </span>
-          <a href="https://code-studio4.com/"><span class="text-base text-center font-semibold lg:text-left text-cyan-400 mb-2 lg:text-xl xs:text-sm lg:mt-1 hover:underline">🔗 www.code-studio4.com</span></a>
+          <span class="text-base text-center font-semibold lg:text-left text-white mb-2 lg:text-xl xs:text-[17px] lg:mt-1">Code Studio - </span>
+          <a href="https://code-studio4.com/"><span class="text-base text-center font-semibold lg:text-left text-cyan-400 mb-2 lg:text-xl xs:text-[17px] lg:mt-1 hover:underline">🔗 www.code-studio4.com</span></a>
         </li>
       </ul>
 
@@ -53,7 +53,7 @@ const showMore = ref(false); 
     <p>
     </p>
 
-    <p v-if="showMore">
+    <div v-if="showMore">
       <div>
         <div>
         <p class="text-base text-center font-semibold lg:text-left text-white mb-2 lg:text-xl lg:-mt-3">
@@ -91,12 +91,12 @@ const showMore = ref(false); 
         </li>
       </div>
       </div>
-    </p>
+    </div>
 
     <div class="md:items-center md:flex md:justify-center lg:items-start lg:justify-start xs:items-center xs:flex xs:justify-center">
       <button class="xs:w-48 md:w-52 lg:w-29 lg:py-2 md:px-4 shadow-[#00f0ff] xs:py-2 md:py-3 mt-2 text-black bg-[#00f0ff] hover:bg-cyan-500 shadow-[0_0_5px_rgba(0,0,0,0.4)] rounded-full font-medium transition duration-500 hover:shadow-[#00f0ff] xs:text-sm lg:text-lg" 
       @click="showMore = !showMore">
-      {{ showMore ? 'Show More' : 'Read More' }}
+      {{ showMore ? 'Show Less' : 'Read More' }}
     </button>
     </div>
   </div>

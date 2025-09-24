@@ -7,17 +7,19 @@ const states = reactive([
     title: 'Crafty-Bay',
     subtitle: 'Developed using: Flutter, GetX State Management, REST API, MVVM architecture, & SSLCOMMERZ Payment Gateway || Users can add their desired products to the wish list or cart list here.',
     playstore: '',
-    driveLink: 'https://drive.google.com/drive/',
-    appstore: '' // yes
+    driveLink: 'https://drive.google.com/file/d/1zOWDuW0mN797JX7gL4womPk64ZygrTxe/view?usp=sharing',
+    appstore: '', // yes
+    github: 'https://github.com/MrSohan10/E-Commerce-Project'
   },
   {
     img: '/imagess/logo1.png',
     title: 'World-Vision',
-    subtitle: 'Developed using: Flutter, GetX State Management, REST API, MVC architecture || Before applying, the user must first login and then submit all the required information.the required information',
+    subtitle: 'Developed using: Flutter, GetX State Management, REST API, MVC architecture || Before applying, the user must first login and then submit all the required information information information.',
     playstore: '', // no
-    driveLink: 'https://drive.google.com/drive/',
-    appstore: '' 
-  },
+    driveLink: 'https://drive.google.com/file/d/1qb2sz1meoZHUSoFUE4GXnPvfq50zyTP-/view?usp=sharing',
+    appstore: '',
+    github: 'https://github.com/MrSohan10/World-Vision'
+  }
 ])
 
 // Playstore
@@ -36,7 +38,7 @@ function openAppstore(project) {
   if (project.appstore) {
     window.open(project.appstore, '_blank', 'noopener')
   } else {
-    alert('there is no appstore')
+    alert('There is no Appstore link')
   }
 }
 </script>
@@ -78,8 +80,8 @@ function openAppstore(project) {
             </p>
 
             <!-- Buttons -->
-            <div class="flex items-center justify-between">
-              <div class="flex items-center gap-2 md:-mt-2">
+            <div class="flex items-center justify-between -mt-3">
+              <div class="flex items-center gap-2">
                 <!-- Playstore -->
                 <button type="button" @click="openPlaystore(state)">
                   <!-- Playstore SVG -->
@@ -111,9 +113,10 @@ function openAppstore(project) {
               </div>
 
               <!-- Github -->
-              <a href="https://github.com/MrSohan10?tab=repositories" target="_blank">
+
+              <a v-if="state.github" :href="state.github" target="_blank">
                 <button class="py-2 px-5 lg:-mt-3 text-sm font-medium text-black bg-cyan-400 border border-cyan-400 rounded-lg shadow-md hover:bg-[#1f242d] hover:text-white transition">
-                  Github
+                GitHub
                 </button>
               </a>
             </div>
