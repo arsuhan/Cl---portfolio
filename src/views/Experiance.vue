@@ -7,7 +7,7 @@ const showMore = ref(false); 
 
 <template>
 
-    <section id="about" class="lg:py-24 -my-1">
+    <section id="experiance" class="lg:py-24 -my-1">
   <div class="containe xs:mx-0 lg:mx-12 px-5 md:px-12 lg:px-16 flex flex-col lg:flex-row items-center lg:items-start lg:-mt-14">
 
     <div class="lg:w-1/2 flex justify-center lg:justify-start xs:mt-12 md:-mt-20 mx-auto lg:-mt-4 duration-500 transition hover:scale-[1.03]">

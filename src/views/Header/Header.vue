@@ -57,7 +57,7 @@ onMounted(() => {
       <!-- Desktop Menu -->
       <ul class="hidden md:flex items-center space-x-8 font-bold font-serif text-[16px] text-white">
         <li><a href="#home" @click="handleLinkClick" class="transition underline text-cyan-400">Home</a></li>
-        <li><a href="#about" @click="handleLinkClick" class="hover:text-cyan-400 hover:underline">About</a></li>
+        <li><a href="#experiance" @click="handleLinkClick" class="hover:text-cyan-400 hover:underline">Experiance</a></li>
         <li><a href="#skill" @click="handleLinkClick" class="hover:text-cyan-400 hover:underline">Skills</a></li>
         <li><a href="#project" @click="handleLinkClick" class="hover:text-cyan-400 hover:underline">Projects</a></li>
         <li><a href="#contact" @click="handleLinkClick" class="hover:text-cyan-400 hover:underline">Contact</a></li>
@@ -93,7 +93,7 @@ onMounted(() => {
       <div v-if="isOpen"
         class="md:hidden flex flex-col space-y-4 px-6 pb-6 pt-2 bg-gray-100 dark:bg-[#1e293b]/90 backdrop-blur-md shadow-sm border-t text-gray-800 dark:text-gray-100 font-serif font-semibold text-base">
         <a href="#home" @click="handleLinkClick" class="hover:text-cyan-500">Home</a>
-        <a href="#about" @click="handleLinkClick" class="hover:text-cyan-500">About</a>
+        <a href="#experiance" @click="handleLinkClick" class="hover:text-cyan-500">Experiance</a>
         <a href="#skill" @click="handleLinkClick" class="hover:text-cyan-500">Skills</a>
         <a href="#project" @click="handleLinkClick" class="hover:text-cyan-500">Projects</a>
         <a href="#contact" @click="handleLinkClick" class="hover:text-cyan-500">Contact</a>

@@ -52,7 +52,6 @@ const submitForm = async () => {
         <p class="mt-2 lg:text-[16px] text-white">Let's work together</p>
         <div class="w-20 lg:h-1 xs:h-0.5 bg-cyan-400 mx-auto mt-3 rounded"></div>
       </section>
-
    
       <section 
 
@@ -165,7 +164,7 @@ const submitForm = async () => {
 
     <!-- Linkedn in -->
 
-    <a href="https://github.com/MrSohan10"
+    <a href="https://www.linkedin.com/in/md-sabbir-ahmed-sohan/"
               target="_blank"
               class="text-cyan-400 border-cyan-400 hover:shadow-cyan-400 hover:text-cyan-400 border duration-500 hover:-translate-y-1.5 p-2 rounded-xl transition hover:shadow-[0_0_15px_rgba(0,0,0,0.4)]"
             >

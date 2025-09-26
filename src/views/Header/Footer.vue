@@ -2,7 +2,6 @@
 <footer class="bg-gray-800 text-white py-10 px-4">
   <div class="max-w-6xl mx-auto flex flex-col md:flex-row md:justify-between lg:gap-32 xs:gap-6 text-center md:text-left">
     
-
     <div class="mb-6 md:mb-0">
       <h1 class="lg:text-2xl xs:text-xl font-bold xs:flex xs:justify-center xs:items-center">
         <span class="text-cyan-400">Md. Sabbir Ahmed Sohan</span>
@@ -12,7 +11,6 @@
     </p>
     </div>
     
-  
     <div class="flex-1">
       <h3 class="font-bold mb-2">Quick Links</h3>
       <div class="w-10 h-1 bg-cyan-500 mx-auto md:mx-0 mb-4"></div>
@@ -24,7 +22,6 @@
       </ul>
     </div>
 
-
     <div class="flex-1">
       <h3 class="font-bold mb-2">Contact</h3>
       <div class="w-10 h-1 bg-cyan-500 mx-auto md:mx-0 mb-4"></div>
@@ -32,7 +29,6 @@
       <p class="mt-2 hover:underline hover:text-cyan-400">+880 1327 2926 90</p>
       <p class="mt-2 hover:underline hover:text-cyan-400">Sector-6, Uttara, Dhaka-1230, Bangladesh</p>
     </div>
-
   
     <div class="flex-1 flex flex-col items-center md:items-start">
       <h3 class="font-bold mb-2">Follow Me</h3>

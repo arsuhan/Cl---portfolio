@@ -166,7 +166,7 @@ const states = reactive([
     <div class="text-center mt-8">
       <button
         @click="showAll = !showAll"
-        class="py-2 px-6 text-sm font-medium text-black bg-cyan-400 border border-cyan-400 rounded-lg shadow-md hover:bg-[#1f242d] hover:text-white transition"
+        class="py-2 px-6 text-sm font-medium text-black bg-cyan-400 border border-cyan-400 rounded-full shadow-md hover:bg-[#1f242d] hover:text-white transition"
       >
         {{ showAll ? 'Show Less' : 'Read More' }}
       </button>

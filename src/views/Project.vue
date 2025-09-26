@@ -50,7 +50,6 @@ function openAppstore(project) {
       <h1 class="lg:text-2xl xs:text-xl font-bold font-serif lg:mt-4 xs:-mt-4">
         <span class="text-cyan-400">My Projects</span>
       </h1>
-      <p class="mt-2 text-white">Some of my recent work</p>
       <div class="w-20 lg:h-1 xs:h-0.5 bg-blue-500 dark:bg-cyan-400 mx-auto mt-3 rounded"></div>
     </section>
 
