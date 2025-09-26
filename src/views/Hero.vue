@@ -47,7 +47,7 @@
             <a
               href="https://github.com/MrSohan10"
               target="_blank"
-              class="text-cyan-400 border-cyan-400 hover:shadow-cyan-400 hover:text-cyan-400 border duration-500 hover:-translate-y-1.5 lg:p-2 md:p-1.5 p-1.5 rounded-full transition hover:shadow-[0_0_15px_rgba(0,0,0,0.4)]"
+              class="text-cyan-400 border-cyan-400 hover:shadow-cyan-400 hover:text-cyan-400 border duration-500 hover:-translate-y-1.5 lg:p-2 md:p-2 p-2 rounded-full transition hover:shadow-[0_0_15px_rgba(0,0,0,0.4)]"
             >
               <svg
                 class="w-5 h-5"
@@ -108,17 +108,12 @@
         </div>
 
         <!-- Right Image -->
-        <div
-          class="hidden lg:flex justify-center lg:justify-end w-full duration-500 transition hover:scale-[1.03] h-[350px]"
-        >
 
+        <div class="hidden lg:flex justify-center lg:justify-end w-full duration-500 transition hover:scale-[1.03] h-[320px] -mt-6">
       <div
-         class="overflow-hidden rounded-full relative z-10 w-full max-w-[350px] bg-cyan-400 ring-2 dark:ring-cyan-400 ring-cyan-400 shadow-[0_0_25px_rgba(0,0,0,0.4)] shadow-cyan-400"
+         class="overflow-hidden rounded-full relative z-10 w-full max-w-[320px] bg-cyan-400 ring-2 dark:ring-cyan-400 ring-cyan-400 shadow-[0_0_25px_rgba(0,0,0,0.4)] shadow-cyan-400"
         >
-        <img
-          src="/public/images/sohan.png"
-          alt="Img"
-          class="w-full object-cover rounded-full "
+        <img src="/public/images/sohan.png" alt="Img" class="w-full object-cover rounded-full"  
         />
       </div>
         </div>

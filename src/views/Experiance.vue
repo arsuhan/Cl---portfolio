@@ -8,13 +8,13 @@ const showMore = ref(false); 
 <template>
 
     <section id="experiance" class="lg:py-24 -my-1">
-  <div class="containe xs:mx-0 lg:mx-12 px-5 md:px-12 lg:px-16 flex flex-col lg:flex-row items-center lg:items-start lg:-mt-14">
+  <div class="containe xs:-mx-1 lg:mx-12 px-5 md:px-12 lg:px-16 flex flex-col lg:flex-row items-center lg:items-start lg:-mt-14">
 
-    <div class="lg:w-1/2 flex justify-center lg:justify-start xs:mt-12 md:-mt-20 mx-auto lg:-mt-4 duration-500 transition hover:scale-[1.03]">
+    <div class="lg:w-1/2 flex justify-center lg:justify-start xs:mt-12 md:-mt-20 mx-auto duration-500 transition hover:scale-[1.03]">
       <img
         src="/images/sohan.png"
         alt="About Image"
-        class="xs:w-[220px] xs:h-[240px] sm:w-[280px] sm:h-[260px] md:w-[280px] md:h-[280px] lg:w-[290px] lg:h-[320px] lg:-mt-12 rounded-xl border-2 border-cyan-400 object-cover shadow-[0_0_25px_rgba(0,0.2)] shadow-cyan-400 duration-500 transition"
+        class="xs:w-[230px] xs:h-[240px] sm:w-[280px] sm:h-[260px] md:w-[280px] md:h-[280px] lg:w-[280px] lg:h-[320px] lg:mt-4 rounded-xl border-2 border-cyan-400 object-cover shadow-[0_0_25px_rgba(0,0.2)] shadow-cyan-400 duration-500 transition"
       />
     </div>
 

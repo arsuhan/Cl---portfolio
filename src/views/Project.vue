@@ -55,7 +55,7 @@ function openAppstore(project) {
 
     <div class="flex lg:mt-0.5 md:-mt-4">
       <section
-        class="grid grid-cols-1 md:grid-cols-2 mx-1 md:mx-auto lg:items-center lg:justify-center lg:flex md:gap-4 lg:gap-6 xs:p-2 md:p-10"
+        class="grid grid-cols-1 md:grid-cols-2 xs:mx-3 md:mx-auto lg:items-center lg:justify-center lg:flex md:gap-4 lg:gap-6 xs:p- md:p-10"
       >
         <div
           v-for="state in states"

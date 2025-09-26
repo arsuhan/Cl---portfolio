@@ -139,7 +139,7 @@ const states = reactive([
       <div class="w-20 lg:h-1 xs:h-0.5 bg-cyan-500 mx-auto mt-3 rounded"></div>
     </section>
 
-    <section class="w-full xs:mt-8 lg:mt-16 px-3 md:px-12 grid lg:gap-4 md:gap-4 xs:gap-2 xs:grid-cols-2 md:grid-cols-2 lg:grid-cols-4">
+    <section class="xs:mx-0.5 w-full xs:mt-8 lg:mt-16 px-3 md:px-12 grid lg:gap-4 md:gap-4 xs:gap-2 xs:grid-cols-2 md:grid-cols-2 lg:grid-cols-4">
       <div
         v-for="(state, index) in states"
         :key="index"
