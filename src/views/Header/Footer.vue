@@ -3,7 +3,7 @@
   <div class="max-w-6xl mx-auto flex flex-col md:flex-row md:justify-between lg:gap-32 xs:gap-6 text-center md:text-left">
     
     <div class="mb-6 md:mb-0">
-      <h1 class="lg:text-2xl xs:text-xl font-bold xs:flex xs:justify-center xs:items-center">
+      <h1 class="lg:text-2xl xs:text-xl md:text-base font-bold xs:flex xs:justify-center xs:items-center">
         <span class="text-cyan-400">Md. Sabbir Ahmed Sohan</span>
     </h1>
     <p class="text-gray-200 xs:text-[12px] lg:text-[18px] xs:mt-2 xs:justify-center xs:items-center">
@@ -12,7 +12,7 @@
     </div>
     
     <div class="flex-1">
-      <h3 class="font-bold mb-2">Quick Links</h3>
+      <h3 class="font-bold mb-2 md:text-sm">Quick Links</h3>
       <div class="w-10 h-1 bg-cyan-500 mx-auto md:mx-0 mb-4"></div>
       <ul class="space-y-1">
         <li><a href="#home" class="hover:underline hover:text-cyan-400">Home</a></li>
@@ -22,8 +22,8 @@
       </ul>
     </div>
 
-    <div class="flex-1">
-      <h3 class="font-bold mb-2">Contact</h3>
+    <div class="lg:flex-2 md:flex-1">
+      <h3 class="font-bold mb-2 md:text-sm">Contact</h3>
       <div class="w-10 h-1 bg-cyan-500 mx-auto md:mx-0 mb-4"></div>
       <p class="hover:underline hover:text-cyan-400">iamsohan11@gmail.com</p>
       <p class="mt-2 hover:underline hover:text-cyan-400">+880 1327 2926 90</p>
@@ -31,7 +31,7 @@
     </div>
   
     <div class="flex-1 flex flex-col items-center md:items-start">
-      <h3 class="font-bold mb-2">Follow Me</h3>
+      <h3 class="font-bold mb-2 md:text-sm">Follow Me</h3>
       <div class="w-10 h-1 bg-cyan-500 mx-auto md:mx-0 mb-4"></div>
       <section class="flex lg:gap-4 xs:gap-6 xs:mt-2">
      <a

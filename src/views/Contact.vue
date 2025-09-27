@@ -192,7 +192,7 @@ const submitForm = async () => {
       <div class="">
         <form
             @submit.prevent="submitForm"
-            class="bg-gray-800 rounded-lg xs:-mx-7 shadow-md xs:p-7 lg:p-6 lg:space-y-12 xs:space-y-5 md:space-y-4 xs:mt-5"
+            class="bg-gray-800 rounded-lg xs:-mx-7 shadow-md xs:p-7 lg:p-6 lg:space-y-6 xs:space-y-5 md:space-y-4 xs:mt-5"
           >
             <section class="xs:-mx-4 lg:mx-0 ">
                 <div class="flex items-center justify-center">
@@ -227,6 +227,19 @@ const submitForm = async () => {
               />
             </section>
             <section class="xs:-mx-4 lg:mx-0">
+              <label for="Email" class="block text-sm font-mediu text-white mb-1"
+                >Phone</label
+              >
+              <input
+                type="text"
+                id="phone"
+                placeholder="Your Phone"
+                v-model="phone"
+                required
+                class="mt- dark:bg-[#1f242d] block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-white focus:border-blue-500 bg-gray-200 dark:border-gray-600 dark:text-white"
+              />
+            </section>
+            <section class="xs:-mx-4 lg:mx-0">
               <label
                 for="Message"
                 class="block text-sm font-medium text-white mb-1"
@@ -246,7 +259,7 @@ const submitForm = async () => {
             <div class="flex items-center justify-center">
                 <button
               type="submit"
-              class="xs:flex xs:items-center xs:justify-center lg:items-start lg:justify-start lg:block xs:w-40 lg:w-60 md:px-4 shadow-white lg:px-8 xs:py-2 md:py-3 text-black bg-[#00f0ff] hover:shadow-[0_0_15px_rgba(0,0,0,0.4)] rounded-full font-medium transition duration-500 hover:shadow-cyan-400 dark:hover:shadow-cyan-400 xs:text-sm lg:text-lg"
+              class="xs:flex xs:items-center xs:justify-center lg:items-start lg:justify-start lg:block xs:w-40 lg:w-60 md:px-4 shadow-white lg:px-8 xs:py-2 md:py-2.5 text-black bg-[#00f0ff] hover:shadow-[0_0_15px_rgba(0,0,0,0.4)] rounded-full font-medium transition duration-500 hover:shadow-cyan-400 dark:hover:shadow-cyan-400 xs:text-sm lg:text-lg"
             >
               Send Message
             </button>

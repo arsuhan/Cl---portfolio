@@ -4,7 +4,7 @@
     class="md:py-2 md:min-h-[600px] lg:min-h-[580px] overflow-x-hidden"
   >
     <section
-      class="lg:min-h-screen flex items-center justify-center md:px-4 xs:px-4 relative"
+      class="lg:mt-40 flex items-center justify-center md:px-4 xs:px-4 relative"
     >
       <div
         class="items-center xs:mx-4 md:mx-10 lg:mx-20 flex flex-wrap lg:flex-nowrap"
@@ -101,7 +101,7 @@
               <button
                 class="w-48 md:w-52 lg:w-42 px-4 lg:px-8 py-2 md:py-3 text-black hover:shadow-cyan-400 bg-[#00f0ff] rounded-full font-medium duration-500 transition hover:shadow-[0_0_15px_rgba(0,0,0,0.4)]hover:shadow-cyan-400"
               >
-                Download CV
+                Download Resume
               </button>
             </a>
           </div>

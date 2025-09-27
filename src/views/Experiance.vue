@@ -7,8 +7,8 @@ const showMore = ref(false); 
 
 <template>
 
-    <section id="experiance" class="lg:py-24 -my-1">
-  <div class="containe xs:-mx-1 lg:mx-12 px-5 md:px-12 lg:px-16 flex flex-col lg:flex-row items-center lg:items-start lg:-mt-14">
+    <section id="experiance" class="lg:py-24">
+  <div class="containe xs:-mx-1 lg:mx-12 px-5 md:px-12 lg:px-16 flex flex-col lg:flex-row items-center lg:items-start lg:mt-14">
 
     <div class="lg:w-1/2 flex justify-center lg:justify-start xs:mt-12 md:-mt-20 mx-auto duration-500 transition hover:scale-[1.03]">
       <img

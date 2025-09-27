@@ -60,9 +60,9 @@ function openAppstore(project) {
         <div
           v-for="state in states"
           :key="state.title"
-          class="group bg-gray-700 border-2 border-cyan-400 lg:h-[480px] lg:w-[380px] xs:w-full md:w-[320px] lg:mx-auto md:h-[440px] rounded-lg shadow-sm dark:bg-gray-800 relative overflow-hidden transform transition-all duration-500 hover:-translate-y-2 xs:mt-7 md:mt-4"
+          class="group bg-gray-700 border-2 border-cyan-400 lg:h-[470px] lg:w-[370px] xs:w-full md:w-[320px] lg:mx-auto md:h-[432px] rounded-lg shadow-sm dark:bg-gray-800 relative overflow-hidden transform transition-all duration-500 hover:-translate-y-2 xs:mt-7 md:mt-4"
         >
-          <div class="overflow-hidden lg:h-[240px]">
+          <div class="overflow-hidden lg:h-[230px]">
             <img
               class="w-full lg:h-full xs:h-[190px] md:h-[195px] object-cover transition-transform duration-500 group-hover:scale-110 group-hover:-translate-y-2"
               :src="state.img"
