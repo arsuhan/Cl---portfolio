@@ -44,9 +44,9 @@ const submitForm = async () => {
 
 <template>
 <section id="contact" class="">
-    <section class="py-8 -my-1 shadow-lg dark:text-white">
+    <section class="py-12 -my-1 shadow-lg dark:text-white">
       <section class="text-center">
-        <h1 class="lg:text-2xl xs:text-xl font-serif font-bold xs:-mt-6 lg:mt-1">
+        <h1 class="lg:text-2xl xs:text-xl font-serif font-bold md:-mt-10 lg:-mt-5 xs:-mt-10">
           <span class="text-cyan-400">Get In Touch</span>
         </h1>
         <p class="mt-2 lg:text-[16px] text-white">Let's work together</p>
@@ -175,15 +175,6 @@ const submitForm = async () => {
                 <path d="M22.23 0H1.77C.79 0 0 .77 0 1.72v20.56C0 23.23.79 24 1.77 24H22.2c.98 0 1.8-.77 1.8-1.72V1.72C24 .77 23.2 0 22.23 0zM7.1 20.44H3.56V9H7.1v11.44zM5.34 7.52c-1.14 0-2.06-.91-2.06-2.03s.92-2.03 2.06-2.03 2.06.91 2.06 2.03-.92 2.03-2.06 2.03zM20.45 20.44h-3.53v-5.65c0-1.35-.03-3.08-1.88-3.08-1.89 0-2.18 1.47-2.18 2.99v5.74H9.33V9h3.39v1.56h.05c.47-.9 1.61-1.86 3.32-1.86 3.56 0 4.22 2.34 4.22 5.37v6.37z"/>
               </svg>
     </a>
-
-    <!-- <a href="https://www.linkedin.com/in/md-sabbir-ahmed-sohan/"
-              target="_blank"
-              class="text-cyan-400 border-cyan-400 hover:shadow-cyan-400 hover:text-cyan-400 border duration-500 hover:-translate-y-1.5 p-2 rounded-xl transition hover:shadow-[0_0_15px_rgba(0,0,0,0.4)]"
-            >
-              <svg class="lg:w-6 lg:h-6 xs:w-4 xs:h-4" fill="currentColor" viewBox="0 0 24 24">
-                <path d="M22.23 0H1.77C.79 0 0 .77 0 1.72v20.56C0 23.23.79 24 1.77 24H22.2c.98 0 1.8-.77 1.8-1.72V1.72C24 .77 23.2 0 22.23 0zM7.1 20.44H3.56V9H7.1v11.44zM5.34 7.52c-1.14 0-2.06-.91-2.06-2.03s.92-2.03 2.06-2.03 2.06.91 2.06 2.03-.92 2.03-2.06 2.03zM20.45 20.44h-3.53v-5.65c0-1.35-.03-3.08-1.88-3.08-1.89 0-2.18 1.47-2.18 2.99v5.74H9.33V9h3.39v1.56h.05c.47-.9 1.61-1.86 3.32-1.86 3.56 0 4.22 2.34 4.22 5.37v6.37z"/>
-              </svg>
-    </a> -->
 </div>
 </div> 
 

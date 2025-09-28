@@ -60,6 +60,7 @@ onMounted(() => {
         <li><a href="#experiance" @click="handleLinkClick" class="hover:text-cyan-400 hover:underline">Experiance</a></li>
         <li><a href="#skill" @click="handleLinkClick" class="hover:text-cyan-400 hover:underline">Skills</a></li>
         <li><a href="#project" @click="handleLinkClick" class="hover:text-cyan-400 hover:underline">Projects</a></li>
+        <li><a href="#cirtificate" @click="handleLinkClick" class="hover:text-cyan-400 hover:underline">Cirtificate</a></li>
         <li><a href="#contact" @click="handleLinkClick" class="hover:text-cyan-400 hover:underline">Contact</a></li>
         <li>
           <!-- <button @click="toggleDarkMode" class="text-2xl ml-3">
@@ -96,6 +97,7 @@ onMounted(() => {
         <a href="#experiance" @click="handleLinkClick" class="hover:text-cyan-500">Experiance</a>
         <a href="#skill" @click="handleLinkClick" class="hover:text-cyan-500">Skills</a>
         <a href="#project" @click="handleLinkClick" class="hover:text-cyan-500">Projects</a>
+        <a href="#cirtificate" @click="handleLinkClick" class="hover:text-cyan-500">Cirtificate</a>
         <a href="#contact" @click="handleLinkClick" class="hover:text-cyan-500">Contact</a>
       </div>
     </transition>
