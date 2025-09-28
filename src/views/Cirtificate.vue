@@ -48,7 +48,7 @@ const nextCertificate = () => {
           currentIndex === 1 ? 'bg-cyan-400 text-white' : 'bg-white text-black'
         ]"
       >
-        Markshit
+        Marksheet
       </button>
     </div>
 
