@@ -9,7 +9,7 @@ const showSuccess = ref(false)
 
 const submitForm = async () => {
   console.log('submit')
-  alert("Message Send Successfylly")
+  alert("Do you want to send the message?")
   const response = await fetch('https://api.web3forms.com/submit', {
     method: 'POST',
     headers: {
@@ -41,6 +41,7 @@ const submitForm = async () => {
   message.value = ''
 }
 </script>
+
 
 <template>
 <section id="contact" class="">
@@ -200,7 +201,7 @@ const submitForm = async () => {
                 placeholder="Your ame"
                 v-model="name"
                 required
-                class="mt- dark:bg-[#1f242d] block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-white focus:border-blue-500 bg-gray-200 dark:border-gray-600 dark:text-white"
+                class="mt- bg-[#1f242d] text-white block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-white focus:border-blue-500 dark:border-gray-600 dark:text-white"
               />
             </section>
 
@@ -214,10 +215,10 @@ const submitForm = async () => {
                 placeholder="Your Email"
                 v-model="email"
                 required
-                class="mt- dark:bg-[#1f242d] block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-white focus:border-blue-500 bg-gray-200 dark:border-gray-600 dark:text-white"
+                class="mt- bg-[#1f242d] text-white block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-white focus:border-blue-500 dark:border-gray-600 dark:text-white"
               />
             </section>
-            <section class="xs:-mx-4 lg:mx-0">
+            <!-- <section class="xs:-mx-4 lg:mx-0">
               <label for="Email" class="block text-sm font-mediu text-white mb-1"
                 >Phone</label
               >
@@ -229,7 +230,7 @@ const submitForm = async () => {
                 required
                 class="mt- dark:bg-[#1f242d] block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-white focus:border-blue-500 bg-gray-200 dark:border-gray-600 dark:text-white"
               />
-            </section>
+            </section> -->
             <section class="xs:-mx-4 lg:mx-0">
               <label
                 for="Message"
@@ -241,9 +242,10 @@ const submitForm = async () => {
                 v-model="message"
                 placeholder="Your Message"
                 required
-                class="dark:bg-[#1f242d] block w-full px-3 py-2 border-2 border-gray-300 rounded-md shadow-sm focus:ring-white focus:border-blue-500 bg-gray-200 dark:border-gray-600 dark:text-white"
+                class="block bg-[#1f242d] text-white w-full px-3 py-2 border-2 border-gray-300 rounded-md shadow-sm focus:ring-white focus:border-blue-500 dark:border-gray-600"
                 rows="4"
               >
+              <!-- dark:bg-[#1f242d] -->
               </textarea>
             </section>
 
