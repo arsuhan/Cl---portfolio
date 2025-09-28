@@ -3,7 +3,7 @@ import { reactive } from 'vue'
 
 const states = reactive([
   {
-    img: '/imagess/logo.png',
+    img: '/imagess/logo5.png',
     title: 'Crafty-Bay',
     subtitle: 'Developed using: Flutter, GetX State Management, REST API, MVVM architecture, & SSLCOMMERZ Payment Gateway || Users can add their desired products to the wish list or cart list here.',
     playstore: '',
