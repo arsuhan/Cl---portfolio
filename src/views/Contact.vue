@@ -42,7 +42,6 @@ const submitForm = async () => {
 }
 </script>
 
-
 <template>
 <section id="contact" class="">
     <section class="py-12 -my-1 shadow-lg dark:text-white">
@@ -201,7 +200,7 @@ const submitForm = async () => {
                 placeholder="Your ame"
                 v-model="name"
                 required
-                class="mt- bg-[#1f242d] text-white block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-white focus:border-blue-500 dark:border-gray-600 dark:text-white"
+                class="mt- bg-[#1f242d] text-white block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-white focus:border-blue-500 dark:border-gray-600"
               />
             </section>
 
@@ -215,7 +214,7 @@ const submitForm = async () => {
                 placeholder="Your Email"
                 v-model="email"
                 required
-                class="mt- bg-[#1f242d] text-white block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-white focus:border-blue-500 dark:border-gray-600 dark:text-white"
+                class="mt- bg-[#1f242d] text-white block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-white focus:border-blue-500 dark:border-gray-600"
               />
             </section>
             <!-- <section class="xs:-mx-4 lg:mx-0">

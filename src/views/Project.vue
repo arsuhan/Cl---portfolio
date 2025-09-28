@@ -38,7 +38,7 @@ function openAppstore(project) {
   if (project.appstore) {
     window.open(project.appstore, '_blank', 'noopener')
   } else {
-    alert('There is no Appstore link')
+    alert('App Store link is currently unavailable !')
   }
 }
 </script>
