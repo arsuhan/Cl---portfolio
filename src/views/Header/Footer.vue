@@ -35,7 +35,7 @@
       <div class="w-10 h-1 bg-cyan-500 mx-auto md:mx-0 mb-4"></div>
       <section class="flex lg:gap-4 xs:gap-6 xs:mt-2">
      <a
-              href="https://github.com/MrSohan10"
+              href="https://github.com/iamsohan100"
               target="_blank"
               class="text-cyan-400 border-cyan-400 hover:shadow-cyan-400 hover:text-cyan-400 border duration-500 hover:-translate-y-1.5 xs:p-2.5 md:p-1.5 lg:p-1.5 rounded-full transition hover:shadow-[0_0_15px_rgba(0,0,0,0.4)]"
             >
@@ -74,7 +74,8 @@
 
             
 
-            <a href="https://www.linkedin.com/in/md-sabbir-ahmed-sohan/" target="_blank" class="text-cyan-400 border-cyan-400 hover:shadow-cyan-400 hover:text-cyan-400 border duration-500 hover:-translate-y-1.5 xs:p-3 md:p-2 lg:p-2 rounded-full  transition hover:shadow-[0_0_15px_rgba(0,0,0,0.4)]">
+            <a href="https://www.linkedin.com/in/iamsohan100/" 
+            target="_blank" class="text-cyan-400 border-cyan-400 hover:shadow-cyan-400 hover:text-cyan-400 border duration-500 hover:-translate-y-1.5 xs:p-3 md:p-2 lg:p-2 rounded-full  transition hover:shadow-[0_0_15px_rgba(0,0,0,0.4)]">
               <svg class="lg:w-4 lg:h-4 xs:w-4 xs:h-4" fill="currentColor" viewBox="0 0 24 24">
                 <path d="M22.23 0H1.77C.79 0 0 .77 0 1.72v20.56C0 23.23.79 24 1.77 24H22.2c.98 0 1.8-.77 1.8-1.72V1.72C24 .77 23.2 0 22.23 0zM7.1 20.44H3.56V9H7.1v11.44zM5.34 7.52c-1.14 0-2.06-.91-2.06-2.03s.92-2.03 2.06-2.03 2.06.91 2.06 2.03-.92 2.03-2.06 2.03zM20.45 20.44h-3.53v-5.65c0-1.35-.03-3.08-1.88-3.08-1.89 0-2.18 1.47-2.18 2.99v5.74H9.33V9h3.39v1.56h.05c.47-.9 1.61-1.86 3.32-1.86 3.56 0 4.22 2.34 4.22 5.37v6.37z"/>
               </svg>

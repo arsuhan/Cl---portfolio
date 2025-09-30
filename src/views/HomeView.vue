@@ -5,6 +5,7 @@ import About from './Experiance.vue';
 import Skills from '../views/Skills.vue';
 import Project from '../views/Project.vue';
 import Cirtificate from '../views/Cirtificate.vue';
+import Education from '../views/Education.vue';
 import Contact from '../views/Contact.vue';
 import Footer from '../views/Header/Footer.vue';
 
@@ -17,6 +18,7 @@ import Footer from '../views/Header/Footer.vue';
   <Skills />
   <Project />
    <Cirtificate />
+   <Education />
   <Contact />
   <Footer />
 

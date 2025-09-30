@@ -9,7 +9,7 @@ const states = reactive([
     playstore: '',
     driveLink: 'https://drive.google.com/file/d/1zOWDuW0mN797JX7gL4womPk64ZygrTxe/view?usp=sharing',
     appstore: '', // yes
-    github: 'https://github.com/MrSohan10/E-Commerce-Project'
+    github: 'https://github.com/iamsohan100/E-Commerce-Project'
   },
   {
     img: '/imagess/logo1.png',
@@ -18,7 +18,7 @@ const states = reactive([
     playstore: '', // no
     driveLink: 'https://drive.google.com/file/d/1qb2sz1meoZHUSoFUE4GXnPvfq50zyTP-/view?usp=sharing',
     appstore: '',
-    github: 'https://github.com/MrSohan10/World-Vision'
+    github: 'https://github.com/iamsohan100/World-Vision'
   }
 ])
 

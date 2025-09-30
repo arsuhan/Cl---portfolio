@@ -125,7 +125,8 @@ const submitForm = async () => {
 </div>
 
 <div class="flex space-x-6 xs:mt-10 lg:mt-19 xs:mx-3 lg:mx-12 md:mt-6">
-  <a href="https://github.com/MrSohan10"
+  <a href="https://github.com/iamsohan100
+"
               target="_blank"
               class="text-cyan-400 border-cyan-400 hover:shadow-cyan-400 hover:text-cyan-400 border duration-500 hover:-translate-y-1.5 p-1.5 rounded-xl transition hover:shadow-[0_0_15px_rgba(0,0,0,0.4)]"
             >
@@ -164,7 +165,7 @@ const submitForm = async () => {
 
     <!-- Linkedn in -->
 
-    <a href="https://www.linkedin.com/in/md-sabbir-ahmed-sohan/"
+    <a href="https://www.linkedin.com/in/iamsohan100/"
               target="_blank"
               class="text-cyan-400 border-cyan-400 hover:shadow-cyan-400 hover:text-cyan-400 border duration-500 hover:-translate-y-1.5 p-2 rounded-xl transition hover:shadow-[0_0_15px_rgba(0,0,0,0.4)]"
             >

@@ -2,8 +2,8 @@
 import { ref } from "vue"
 
 const certificates = [
-  "/imagess/logo2.png",     // 1st
-  "/imagess/cirtificate.png", // 2nd
+  "/imagess/cirtificate1.jpg",     // 1st
+  "/imagess/marksheet.jpg", // 2nd
 ]
 
 const currentIndex = ref(0)
