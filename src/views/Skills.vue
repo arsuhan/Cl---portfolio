@@ -66,7 +66,9 @@ const filteredStates = computed(() => {
     </div>
 
     <section class="xs:mx-0.5 w-full xs:mt-8 lg:mt-16 px-3 md:px-12 lg:px-24 grid lg:gap-4 md:gap-4 xs:gap-2 xs:grid-cols-2 md:grid-cols-4 lg:grid-cols-5">
-      <div
+      <div data-aos="fade-up"
+     data-aos-anchor-placement="top-bottom"
+     data-aos-duration="1000"
         v-for="(state, index) in filteredStates"
         :key="index"
         class="w-full h-auto xs:h-[144px] md:h-[160px] p-3 rounded-lg bg-gray-900 dark:border-gray-700 transition-transform duration-500 

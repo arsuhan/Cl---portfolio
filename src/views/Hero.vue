@@ -13,25 +13,37 @@
         <div
           class="md:mt-20 lg:-mt-10 xs:mt-24 md:mx-auto"
         >
-          <p
+          <p data-aos="fade-right"
+              data-aos-offset="50"
+              data-aos-easing="ease-in-sine"
+              data-aos-duration="1250"
             class="text-lg md:text-1xl lg:text-2xl font-bold text-white -mt-4 md:mt-0 text-center lg:text-left"
           >
             Hello, This's Me
           </p>
 
-          <h1
+          <h1 data-aos="fade-right"
+              data-aos-offset="50"
+              data-aos-easing="ease-in-sine"
+              data-aos-duration="1200"
             class="xs:text-2xl md:text-3xl text-center lg:text-4xl font-bold text-white mt-2 underline underline-offset-4 decoration-4 lg:text-left" 
           >
             Md. Sabbir Ahmed Sohan
           </h1>
 
-          <h2
+          <h2 data-aos="fade-right"
+              data-aos-offset="50"
+              data-aos-easing="ease-in-sine"
+              data-aos-duration="1150"
             class="text-lg md:text-xl lg:text-2xl justify-center font-semibold lg:mt-6 xs:mt-3 text-white flex lg:justify-start gap-2 md:mt-5"
           >
             I am a Flutter Developer
           </h2>
 
-          <p class="text-white mb-6 lg:mb-3 lg:px-5 xs:mt-3 xs:text-sm lg:text-base md:text-[16px] xs:-mx-5 md:mt-6 md:text-center lg:text-start">
+          <p data-aos="fade-right"
+              data-aos-offset="50"
+              data-aos-easing="ease-in-sine"
+              data-aos-duration="1100" class="text-white mb-6 lg:mb-3 lg:px-5 xs:mt-3 xs:text-sm lg:text-base md:text-[16px] xs:-mx-5 md:mt-6 md:text-center lg:text-start">
             I've been very passionate about computers and programming since my School life. I dream to be
             an expert software engineer so that I can build professional and useful software that has business
             value. I am looking for a Junior software engineer position in a reputed software company that can
@@ -39,7 +51,10 @@
         </p>
 
           <!-- Social Links -->
-          <div
+          <div data-aos="fade-right"
+              data-aos-offset="50"
+              data-aos-easing="ease-in-sine"
+              data-aos-duration="1050"
             class="flex items-center gap-4 mb-6 justify-center lg:justify-start mt-5"
           >
 
@@ -94,7 +109,10 @@
           </div>
 
           <!-- CV Button -->
-          <div class="flex justify-center lg:justify-start">
+          <div data-aos="fade-right"
+              data-aos-offset="50"
+              data-aos-easing="ease-in-sine"
+              data-aos-duration="1000" class="flex justify-center lg:justify-start">
             <a
               href="https://drive.google.com/file/d/1Qwo1AQjX3kGLzp5QMU45ZH-_0f2p6zF7/view?usp=sharing "
               target="_blank"
@@ -110,7 +128,9 @@
 
         <!-- Right Image -->
 
-        <div class="hidden lg:flex justify-center lg:justify-end w-full duration-500 transition hover:scale-[1.03] h-[320px] -mt-6">
+        <div data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000" class="hidden lg:flex justify-center lg:justify-end w-full duration-500 transition hover:scale-[1.03] h-[320px] -mt-6">
       <div
          class="overflow-hidden rounded-full relative z-10 w-full max-w-[320px] bg-cyan-400 ring-2 dark:ring-cyan-400 ring-cyan-400 shadow-[0_0_25px_rgba(0,0,0,0.4)] shadow-cyan-400"
         >

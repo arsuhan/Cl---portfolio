@@ -53,7 +53,9 @@ const submitForm = async () => {
         <div class="w-20 lg:h-1 xs:h-0.5 bg-cyan-400 mx-auto mt-3 rounded"></div>
       </section>
    
-      <section 
+      <section data-aos="fade-up"
+      data-aos-duration="1000"
+     data-aos-anchor-placement="center-bottom"
 
         class="p-10 md:px-16 lg:mt-8 xs:py-10"
       >

@@ -18,7 +18,8 @@
       <div class="grid md:grid-cols-2 gap-10 mt-12 xs:-mx-3 md:mx-8">
         
         <!-- Education Card -->
-        <div
+        <div data-aos="fade-up"
+     data-aos-duration="1100"
           class="p-10 lg:py-20 border-x-4 rounded-2xl text-center hover:scale-[1.02] transition duration-300"
         >
           <p class="text-sm font-semibold mb-2">2022 - Present</p>
@@ -28,7 +29,9 @@
         </div>
 
         <!-- Work Card -->
-        <div
+        <div data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1100"
           class="p-10 lg:py-20 border-x-4 rounded-2xl text-center hover:scale-[1.02] transition duration-300"
         >
           <p class="text-sm font-semibold mb-2">2019 January - 2021</p>

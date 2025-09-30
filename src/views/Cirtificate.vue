@@ -53,7 +53,11 @@ const nextCertificate = () => {
     </div>
 
     <!-- Certificate Image -->
-    <div class="flex justify-center mt-11 xs:-mx-1.5 h-auto">
+    <div data-aos="fade-zoom-in"
+     data-aos-easing="ease-in-back"
+     data-aos-delay="100"
+     data-aos-offset="0"
+     class="flex justify-center mt-11 xs:-mx-1.5 h-auto">
       <img
         :src="certificates[currentIndex]"
         alt="Certificate"

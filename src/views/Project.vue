@@ -1,4 +1,4 @@
-<script setup>
+ <script setup>
 import { reactive } from 'vue'
 
 const states = reactive([
@@ -41,6 +41,9 @@ function openAppstore(project) {
     alert('App Store link is currently unavailable !')
   }
 }
+
+// Init AOS
+
 </script>
 
 <template>
@@ -125,4 +128,4 @@ function openAppstore(project) {
     </div>
   </section>
 </section>
-</template>
+</template> 
